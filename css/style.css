@@ -351,43 +351,7 @@ body{
 
 }
 
-/* ==========================
-   PROFILE IMAGE
-========================== */
 
-.hero-image{
-
-    flex:1;
-
-    display:flex;
-
-    justify-content:center;
-
-}
-
-.hero-image img{
-
-    width:330px;
-
-    height:330px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    border:5px solid var(--secondary);
-
-    box-shadow:0 0 40px rgba(56,189,248,.35);
-
-    transition:.4s;
-
-}
-
-.hero-image img:hover{
-
-    transform:scale(1.04);
-
-}
 
 /* ==========================
    SCROLL
@@ -570,7 +534,7 @@ ABOUT
 
     width:360px;
 
-    height:460px;
+    height:360px;
 
     object-fit:cover;
 
